@@ -1,8 +1,0 @@
-Traqueurs disponibles
-Ultralytics YOLO prend en charge les algorithmes de suivi suivants. Ils peuvent être activés en passant le fichier de configuration YAML approprié, tel que tracker=tracker_type.yaml:
-
-- BoT-SORT - Utilisation botsort.yaml pour activer ce traceur.
-- ByteTrack - Utilisation bytetrack.yaml pour activer ce traceur.
-Le tracker par défaut est BoT-SORT.
-
-https://docs.ultralytics.com/fr/modes/track/
