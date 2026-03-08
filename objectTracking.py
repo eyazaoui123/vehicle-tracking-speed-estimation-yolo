@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-"""
 #Import All the Required Libraries
 from ultralytics import YOLO
 
@@ -65,12 +63,6 @@ model = YOLO("yolo11m.pt")
 results = model.track(source = "Resources/Videos/video7.mp4", show = True, save=True)
 #Tracking with Byte-Track
 #results = model.track(source = "Resources/Videos/video8.mp4", show=True, save=True, tracker = "bytetrack.yaml", conf = 0.20, iou = 0.3)
-"""
-
-
-
-#---------------------------------------------------#
-
 
 #Python Script using OpenCV-Python (cv2) and YOLO11 to run Object Tracking on Video Frames and on Live Webcam Feed
 
@@ -102,10 +94,3 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
->>>>>>> 91b965454fa9d45db5d1e198b9d50848c67c47de
